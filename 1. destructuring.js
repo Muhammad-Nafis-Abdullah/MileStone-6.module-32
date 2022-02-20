@@ -60,20 +60,20 @@ const meWithLove=[
     ['Muhammad','Nafis','Abdullah'],
     'C181067',
     ['fulkopi','shutki alu'],
-    24.5,
+    24.7,
 ]
 
 // here variable
 const [[urFirstName,urMiddleName,urLastName],urId,[urPrioMach,urPrioSobji],urAge,[myFirstName,myMiddleName,myLastName],myId,[myPrioMach,myPrioSobji],myAge] = meWithLove;
 
 console.log(`
-    My Love Name: ${urFirstName,urMiddleName,urLastName},
+    My Love Name: ${urFirstName + urMiddleName + urLastName},
     Her Id: ${urId},
-    Her Favourite Torkari: ${urPrioMach,urPrioSobji},
+    Her Favourite Torkari: ${urPrioMach +","+ urPrioSobji},
     Her Age: ${urAge},
-    My Name: ${myFirstName,myMiddleName,myLastName},
+    My Name: ${myFirstName + myMiddleName + myLastName},
     My Id: ${myId},
-    My Favourite Torkari: ${myPrioMach,myPrioSobji},
+    My Favourite Torkari: ${myPrioMach+ "," +myPrioSobji},
     My Age: ${myAge}
 `);
 
