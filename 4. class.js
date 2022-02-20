@@ -35,8 +35,8 @@ class Info {
 const me = new Info('Nafis','C181067',24.5); // declering a new object named me, 'new' keyword used before the ClassName; and class perameter should be given and the constructor function of Info class processed the perameter according to it's body
 const shashi = new Info('Shashi','C191238',24);
 
-// me.details();
-// shashi.details();
+me.details();
+shashi.details();
 
 
 
@@ -47,7 +47,7 @@ const shashi = new Info('Shashi','C191238',24);
 /* 
     Inheritence:
     If there is any need to inherite any property or method to a class(ChildClass) from another class(ParentClass), then the system of inherite the property/method from ParentClass to ChildClass is called inheritence. To inherite the new class from the common class the system of writing inheritence is :
-    
+
     1. write 'extends' keyword between NewClasse 
     class ChildClass extends ParentClass{
         ------;
@@ -81,3 +81,10 @@ console.log(`____________________`);
 
 const nafisAsDeveloper = new technology('Nafis','C181067',24.5,['react','node.js','mongodb','express']);
 nafisAsDeveloper.printTechnology('Full-stack');
+
+
+
+// ---------------------------------------------------------------------------------------------------------
+
+
+
